@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "jsx": "react",
+        "importHelpers": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "noEmit": true,
+        "pretty": true,
+        "lib": [
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "paths": {
+            "app/*": [
+                "app/*"
+            ],
+            "assets/*": [
+                "assets/*"
+            ],
+            "config/*": [
+                "config/*"
+            ],
+            "gateways/*": [
+                "gateways/*"
+            ],
+            "helpers/*": [
+                "helpers/*"
+            ]
+        }
+    },
+    "include": [
+        "./typings/**/*.d.ts",
+        "./src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
